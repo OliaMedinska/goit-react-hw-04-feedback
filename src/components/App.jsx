@@ -19,7 +19,7 @@ export const App = () => {
     return Math.round((state.good / countTotalFeedback()) * 100);
   };
 
-  const optionsKeys = Object.keys(options);
+  const optionsKeys = Object.keys(state);
 
   return (
     <>
